@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<link href="http://fonts.google.apis.com/css?family=Roboto:300,500" rel="stylesheet">
+		<script src="http://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+		<link rel="stylesheet" href="style.css">
+		<style type="text/css">
+			.butn {
+			background-color: #4CAF50; /* Green */
+			border: none;
+			color: white;
+			padding: 15px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			border-radius: 4px;
+			}
+			.butn:hover {
+			box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
+			}
+			h1 {
+			text-align: center;
+			color: red;
+			}
+			.centr {
+			text-align: center;
+			}
+		</style>
+	</head>
+		<body>
+			<h1>Let's Meet!</h1>
+			<p id="Login"></p>
+			<div class="container">
+			<input id="txtEmail" type "email" placeholder="Email">
+			<input id="txtPassword" type "password" placeholder="Password">
+			<button id="btnLogin" class="btn btn-action">Login</button>
+			<button id="btnSignUp" class="btn btn-secondary">Sign Up</button>
+			<button id="btnLogout" class="btn btn-action hide">Log out</button>
+			</div>
+			<script src="app.js"></script>
+		</body>
+	
+</html>
