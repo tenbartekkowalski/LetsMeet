@@ -12,12 +12,20 @@
 
   <div id="login_div" class="main-div">
     <h3>Let's Meet!</h3>
-    <button onclick="tologinpage()">Login to Account</button>
+    <input type="email" placeholder="Email..." id="email_field" />
+    <input type="password" placeholder="Password..." id="password_field" />
 
+    <button onclick="login()">Login with E-mail</button>
+	<p></p>
+	<button onclick="register()">Register</button>
+	<p></p>
+	<button onclick="googlogin()">Google Account</button>
+	<p></p>
+	<button onclick="facelogin()">Facebook Login</button>
   </div>
   <div id="user_div" class="loggedin-div">
-    <h3>Lets Meet!</h3>
-	<p id="user_para"></p>
+    <h3>Welcome User</h3>
+	<p id="user_para">Welcome to Firebase web login Example. You're currently logged in.</p>
 	<button onclick="letsmeet()">Lets Meet</button>
 	<p></p>
     <button onclick="logout()">Logout</button>

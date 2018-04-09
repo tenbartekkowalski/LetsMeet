@@ -18,9 +18,21 @@
   <div id="user_div" class="loggedin-div">
     <h3>Lets Meet!</h3>
 	<p id="user_para"></p>
-	<button onclick="letsmeet()">Lets Meet</button>
+	
+	
+	<pre id="object"></pre>
+	
+	
+	
+	<button onclick="showmeet()">Dostępne Spotkania</button>
 	<p></p>
-    <button onclick="logout()">Logout</button>
+	<button onclick="showevent()">Wydarzenia w Twojej okolicy</button>
+	<p></p>
+	<button onclick="addevent()">Dodaj nowe wydarzenie</button>
+	<p></p>
+    <button onclick=window.location.replace('addmeeting-meet.html')>Dodaj nowe spotkanie</button>
+	<p></p>
+	<button onclick="logout()">Logout</button>
   </div>
   <script src="index.js"></script>
 
